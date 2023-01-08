@@ -1,1 +1,1 @@
-# Vue3_Week2_第二週 - RESTful API 串接
+# Vue3_Week2_RESTful API 串接
