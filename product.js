@@ -13,6 +13,10 @@ const app = {
         .post(`https://vue3-course-api.hexschool.io/v2/api/user/check`)
         .then((response) => {
           this.getData();
+        })
+        .catch((err) => {
+          console.log(err);
+          window.location = "index.html";
         });
     },
     getData() {
